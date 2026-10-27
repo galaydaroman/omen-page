@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/omen-page/sw.js', { scope: '/omen-page/' })})}
